@@ -22,3 +22,16 @@ while contador < cantidad_numeros:
         imprimir_numero(numero)
         
     contador += 1
+
+#3er
+libros = {
+    "superman": "edition 2",
+    "hombre_aracne": "edition 1",
+}
+
+# Keys
+for value in libros:
+    print(value)
+# keys and values
+for libro, edicion in libros.items():
+    print(f"Libro: {libro} edicion: {edicion}")
